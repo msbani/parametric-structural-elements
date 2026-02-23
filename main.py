@@ -51,7 +51,7 @@ def build_elements_for_profile(profile) -> list:
     )
     beam = create_element_with_profile(
         Beam, profile,
-        position=Position(0.0, 1.0, col.height),
+        start_position=Position(0.0, 1.0, col.height),
         label=f"{profile.name}-Beam",
     )
     slab = create_element_with_profile(
