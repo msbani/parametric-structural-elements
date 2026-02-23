@@ -163,8 +163,3 @@ python -m unittest discover -s tests -v
 
 **Result: 43 tests, 0 failures**
 
----
-
-## License
-
-MIT
